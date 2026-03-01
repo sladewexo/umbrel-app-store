@@ -17,7 +17,7 @@ services:
     restart: on-failure
 
   web:
-    image: odoo:18.0@sha256:8e262fde438aa29c27609a19cb7677654a55b7b805a825e03b5b8b990e188c9b
+    image: odoo:18.0@sha256:3cebb4f94bebb27c6e8a7a2fc22efbc5adc68d60a33ec3055eff9bda857561b4
     user: "0:0"
     volumes:
       - ${APP_DATA_DIR}/data/web-data:/var/lib/odoo:rw
